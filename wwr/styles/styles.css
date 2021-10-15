@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
 div #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -21,9 +23,11 @@ main section {
 }
 body {
     background-color: #219EBC ;
+    font-family:  Roboto, Helvetica, sans-serif;
 }
 header {
     background-color: #219EBC ;
+    font-family: "Open Sans";
 }
 nav a:hover {
     background-color: #219EBC ;
@@ -50,6 +54,7 @@ footer {
 }
 .home-title {
     color: #FD9E02;
+    font-family: "Open Sans";
 }
 h4 {
     color: #FD9E02;
