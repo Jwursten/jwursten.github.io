@@ -1,0 +1,39 @@
+body{
+    background-color: peachpuff;
+}
+body,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 189px 189px 228px;
+    gap: 15px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.conference {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    padding-top: 322px;
+    background-color: turquoise;
+}
+.prophet{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    padding-top: 149px;
+    background-color: royalblue;
+}
+.learnmore {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    padding-top: 149px;
+    background-color: seagreen;
+}
+h3{
+    background-color: springgreen;
+    padding-top: 208px;
+}
