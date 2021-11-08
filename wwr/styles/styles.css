@@ -6,7 +6,7 @@ div #content {
 }
 nav a {
     text-align: center;
-    color: #FD9E02;
+    color: #000000;
     text-decoration: underline;
     padding: 35px;
 }
@@ -54,12 +54,12 @@ header {
     grid-template-columns: 150px auto;
 }
 nav a:hover {
-    background-color: #219EBC ;
-    color: #FD9E02;
+    background-color: #FD9E02 ;
+    color: #219EBC;
 }
 .book, .join {
     background-color: #219EBC ;
-    color: #FD9E02;
+    color: #000000;
     text-decoration: underline;
     font-size: 18px;
     padding: 15px 30px;
@@ -75,7 +75,7 @@ nav a:hover {
     height: 725px;
 }
 .msg {
-    background-color: #219EBC ;
+    background-color: #03657e ;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -101,7 +101,7 @@ h4 {
     font-family: "Open Sans";
 }
 .msg p {
-    color: #FD9E02;
+    color: #000000;
     font-family:  Roboto, Helvetica, sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
