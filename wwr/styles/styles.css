@@ -67,8 +67,8 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #219EBC ;
-    color: #FD9E02;
+    background-color: #FD9E02 ;
+    color: #219EBC;
 }
 #background {
     background-color: #219EBC ;
