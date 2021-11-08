@@ -137,7 +137,7 @@ footer .social img {
 .card-img {
     border: 10px solid black;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #03657e;
 }
 .card-img:hover{
     opacity: .6;
@@ -181,12 +181,12 @@ nav {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #03657e;
 }
 .msg{
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #03657e;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -211,7 +211,7 @@ nav {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #03657e;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
