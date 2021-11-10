@@ -48,7 +48,7 @@ h2 {
     margin: 0;
 }
 header {
-    background-color: #219EBC ;
+    background-color: #126782 ;
     font-family: "Open Sans";
     display: grid;
     grid-template-columns: 150px auto;
@@ -66,7 +66,7 @@ nav a:hover {
     margin-top: 50px;
     border-radius: 5px;
 }
-.book:hover, .join:hover {
+.book:hover, .join:hover, #salmon-button:hover, #grey-button:hover {
     background-color: #FD9E02 ;
     color: #219EBC;
 }
@@ -80,7 +80,7 @@ nav a:hover {
     padding: 35px;
 }
 footer {
-    background-color: #219EBC ;
+    background-color: #126782  ;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -228,4 +228,130 @@ nav {
     footer {
         margin-top: 25px;
     }
+}
+
+
+#river-hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#river-hero-box{
+    grid-column: 1/5;
+    grid-row: 1/3;
+}
+#river-hero-box img{
+    width: 100%;
+    height: auto;
+}
+#river-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#river-hero-msg h1{
+    text-align: center;
+    font-size: 100px;
+    color: #FD9E02;
+}
+#salmon-river{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 75px;
+    gap: 15px;
+}
+#salmon-image {
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+#salmon-header {
+    align-self: center;
+    justify-self: center;
+    max-width: 75%;
+    border-radius: 10px;
+    background-color: #FD9E02;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+#salmon-info {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: #FFB703;
+    border-radius: 5px;
+}
+#salmon-button {
+    grid-column: 1/3;
+    align-self: center;
+    justify-self: center;
+    grid-row: 3/4;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #FD9E02;
+}
+
+#grey-canyon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 75px;
+    gap: 15px;
+}
+#grey-image {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+#grey-header {
+    align-self: center;
+    justify-self: center;
+    max-width: 75%;
+    border-radius: 10px;
+    background-color: #FD9E02;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+#grey-info {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: #FFB703;
+    border-radius: 5px;
+}
+#grey-button {
+    grid-column: 2/4;
+    align-self: center;
+    justify-self: center;
+    grid-row: 3/4;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #FD9E02;
+}
+#grand-canyon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 75px;
+    gap: 15px;
+}
+#canyon-image {
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+#canyon-header {
+    align-self: center;
+    justify-self: center;
+    max-width: 75%;
+    border-radius: 10px;
+    background-color: #FD9E02;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+#canyon-info {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: #FFB703;
+    border-radius: 5px;
+}
+#canyon-button {
+    grid-column: 1/3;
+    align-self: center;
+    justify-self: center;
+    grid-row: 3/4;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #FD9E02;
 }
